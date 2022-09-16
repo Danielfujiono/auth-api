@@ -1,7 +1,6 @@
 const pool = require('../../database/postgres/pool');
 const UsersTableTestHelper = require('../../../../tests/UsersTableTestHelper');
 const AuthenticationsTableTestHelper = require('../../../../tests/AuthenticationsTableTestHelper');
-const injections = require('../../injections');
 const createServer = require('../createServer');
  
 describe('HTTP server', () => {
